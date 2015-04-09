@@ -1,3 +1,37 @@
+body {
+  font-family: 'Merienda', cursive;
+  background-color: #7d8a2e;
+}
+
+h1 {
+  color: #ff8598;
+  text-align: center;
+}
+
 table {
-  border: 1px solid black;
+  border: solid thin;
+  background-color: #ff8598;
+  color: #c9d787;
+  text-align: center;
+
+}
+
+input {
+  background-color: #ffc09a;
+  border: solid thin white;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #ffc09a;
+  border-radius: 20px;
+  border: solid thin white;
+}
+
+label {
+  color: #c9d787;
+}
+
+tr.even {
+  background-color: #ff0085;
 }

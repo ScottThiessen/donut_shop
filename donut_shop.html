@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>Top Pot Donuts!</title>
+  <link href='http://fonts.googleapis.com/css?family=Merienda' rel='stylesheet' type='text/css'>
   <link type="text/css" rel="stylesheet" href="donuts.css">
 </head>
 <body>
+  <h1>Top Pot Donuts</h1>
   <table id="donut-table">
     <tr>
       <th></th>
@@ -22,12 +24,24 @@
       <th>5:00pm</th>
       <th>Daily Total</th>
     </tr>
-      <tr id="branch1"><th>Downtown</th></tr>
-      <tr id="branch2"><th>Capitol Hill</th></tr>
-      <tr id="branch3"><th>South Lake Union</th></tr>
-      <tr id="branch4"><th>Wedgewood</th></tr>
-      <tr id="branch5"><th>Ballard</th></tr>
+      <tr id="downtown"><th>Downtown</th></tr>
+      <tr class="even" id="capitol hill"><th>Capitol Hill</th></tr>
+      <tr id="south lake union"><th>South Lake Union</th></tr>
+      <tr class="even" id="wedgewood"><th>Wedgewood</th></tr>
+      <tr id="ballard"><th>Ballard</th></tr>
   </table>
+  <form id="new-branch-form">
+    <label for="branch">Branch Name:</label>
+    <input name="branch" type="text">
+    <label for="min-cust">Minimum Customers:</label>
+    <input name="min-cust" type="text">
+    <label for"max-cust">Max Customers:</label>
+    <input name="max-cust" type="text">
+    <label for="avg-donut">Average Donuts Per Person:</label>
+    <input name="avg-donut" type="text">
+
+    <button type="submit">Save Shop</button>
+  </form>
   <script src="top_pot.js"></script>
 </body>
 </html>
