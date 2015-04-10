@@ -1,7 +1,10 @@
 body {
   font-family: 'Merienda', cursive;
   background-color: #7d8a2e;
-}
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+ }
 
 h1 {
   color: #ff8598;
@@ -13,13 +16,20 @@ table {
   background-color: #ff8598;
   color: #c9d787;
   text-align: center;
+  margin: 0 auto;
+  width: 960px;
 
+}
+
+.mainbox {
+  width: 960px;
 }
 
 input {
   background-color: #ffc09a;
   border: solid thin white;
   border-radius: 3px;
+  display: block;
 }
 
 button {
@@ -35,3 +45,20 @@ label {
 tr.even {
   background-color: #ff0085;
 }
+
+form {
+  width: 250px;
+}
+
+.imgplacing {
+  margin-left: 100px;
+  position: absolute;
+ }
+
+.annoying {
+  position: fixed;
+  width: 160px;
+  height: 160px;
+  margin-left: 100px;
+}
+
